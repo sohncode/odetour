@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
-
+// 깃허브 테스트
 // [ 메서드 순서와 설명 ]
 // getConnection() => DB연결 메서드 
 // closeDB() => 자원해제 메서드
@@ -24,7 +24,6 @@ public class MemberDAO {
 	
 	
 	//====================== getConnection() ======================
-	//test
 	private Connection getConnection() throws Exception {
 		
 		Context init = new InitialContext(); 
