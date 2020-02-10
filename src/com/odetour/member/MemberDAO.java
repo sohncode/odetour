@@ -24,7 +24,7 @@ public class MemberDAO {
 	
 	
 	//====================== getConnection() ======================
-	
+	//test
 	private Connection getConnection() throws Exception {
 		
 		Context init = new InitialContext(); 
